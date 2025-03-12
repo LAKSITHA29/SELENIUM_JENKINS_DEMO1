@@ -4,13 +4,14 @@ import java.time.Duration;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 
-public class JsDropDown{
+public class ActionClass{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -19,14 +20,13 @@ public class JsDropDown{
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.bstackdemo.com/");
-		WebElement option2=driver.findElement(By.xpath("//select"));
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("arguments[0].value='highestprice'",option2);
+		WebElement elem=driver.findElement(By.xpath("//select"));
+		Actions action=new Actions(driver);
+		action.moveToElement(elem).perform();
+		WebElement customOption=driver.findElement(By.xpath("//option[text()='Lowest to highest']"));
+		customOption.click();
 		driver.close();
 		
-		//method3:sendKeys
-
-
+		
 	}
-
 }

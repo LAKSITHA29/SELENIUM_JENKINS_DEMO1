@@ -37,8 +37,7 @@
 </goals>
 <configuration>
 
-<mainClass>com.kiot.JsDropDown</mainClass>
-
+<mainClass>com.kiot.ActionClass</mainClass>
 
 </configuration>
 </execution>
