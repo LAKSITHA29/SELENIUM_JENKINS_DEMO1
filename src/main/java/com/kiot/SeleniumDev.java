@@ -49,7 +49,9 @@ public class SeleniumDev {
 
             dropdown.deselectByIndex(0);
             dropdown.deselectByIndex(3);
-        } 
+        } else {
+            System.out.println("This dropdown does not support multiple selections");
+        }
 
         driver.quit();
         
