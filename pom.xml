@@ -37,7 +37,7 @@
 </goals>
 <configuration>
 
-<mainClass>com.kiot.DropDownSelect</mainClass>
+<mainClass>com.kiot.ListDemo</mainClass>
 
 
 </configuration>
