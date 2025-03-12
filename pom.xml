@@ -37,7 +37,8 @@
 </goals>
 <configuration>
 
-<mainClass>com.kiot.ActionClass</mainClass>
+<mainClass>com.kiot.TestLeafDemo</mainClass>
+<mainClass>com.kiot.WebElementActions</mainClass>
 
 </configuration>
 </execution>
