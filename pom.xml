@@ -37,7 +37,7 @@
 </goals>
 <configuration>
 
-<mainClass>com.kiot.ListDemo</mainClass>
+<mainClass>com.kiot.JsDropDown</mainClass>
 
 
 </configuration>
