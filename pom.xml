@@ -36,10 +36,10 @@
 <goal>java</goal>
 </goals>
 <configuration>
-<mainClass>com.kiot.ImplicitWait</mainClass>
-<mainClass>com.kiot.SampleTest</mainClass>
-<mainClass>com.kiot.TotalViews</mainClass>
- <!-- Replace with your actual main class -->
+
+<mainClass>com.kiot.DropDownSelect</mainClass>
+
+
 </configuration>
 </execution>
 </executions>
