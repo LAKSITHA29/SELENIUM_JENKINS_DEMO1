@@ -38,7 +38,7 @@
 <configuration>
 
 
-<mainClass>com.kiot.DragDropDemo</mainClass>
+<mainClass>com.kiot.TestLeafWindow</mainClass>
 
 </configuration>
 </execution>

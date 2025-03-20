@@ -14,6 +14,7 @@ public class SeleniumDev {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+        System.out.println("auto build");
     
         driver.get("https://www.selenium.dev/selenium/web/formPage.html");
 
@@ -51,6 +52,7 @@ public class SeleniumDev {
             dropdown.deselectByIndex(3);
         } else {
             System.out.println("This dropdown does not support multiple selections");
+            
         }
 
         driver.quit();
